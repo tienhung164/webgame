@@ -1,0 +1,171 @@
+
+.body{
+    padding: 0;
+    background-color: #D8D8D8;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar
+{
+    background-color: #2c2c2c;
+   
+}
+ 
+ .navbar button{
+      color: #ccc;
+  }
+  .navbar button:hover{
+      color:#ffffff;
+      border-color: violet;
+      
+  }
+  .btn::after::before{
+    color:#ffffff;
+    border-color: violet;
+    
+}
+  .ti-search{
+      color: #ccc;
+      font-size: 1.4rem;
+      margin-left: 15px;
+  }
+  .ti-search:hover{
+    color: #ffffff;
+  }
+    .ti-user{
+        color: #ccc;
+        font-size: 1.4rem;
+        margin-left: 15px;
+    }
+    .ti-user:hover{
+      color: #ffffff;
+    }
+    .right{
+        display: inline-flex;
+        
+    }
+    .form-control{
+        height:30px;
+    }
+    .dropdown{
+        margin-left: 15px;
+        
+    }
+    .dropdown-item{
+        color: #ccc;
+        font-size: 13px;
+    }
+    .dropdown-menu{
+        margin-top: 12px;
+    }
+    .container-fluid{
+        background-color: #D8D8D8;
+    }
+    .container-fluid h1,.box3 h1{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .hl{
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 14px;
+        border-bottom:1px #ccc solid;
+    }
+    .d-block{
+        height:520px;
+    }
+    .carousel-caption{
+        display: inline-flex;
+        text-align: right;
+        right: 4%;
+        left: 0;
+    }
+    .carousel-caption button[type="submit"], .div2 button[type="submit"],.box4 button[type="submit"]{
+        background-color: rgb(128,171,0);
+        display: inline-flex;
+        border-radius: 10px;
+    }
+    .carousel-caption button[type="submit"]:hover, .div2 button[type="submit"]:hover,.box4 button[type="submit"]:hover{
+        background-color:greenyellow;
+    }
+    .ti-shopping-cart{
+        padding-right: 6px;
+        padding-top: 5px;
+        font-size: 1.2rem;
+    }
+    .box2{
+        margin-top: 45px;
+        padding-top: 45px;
+        border-top: 2px solid #ccc;
+        
+    }
+    .box2{
+        display: inline-flex;
+    }
+    .div2{
+         background-color:#ececec;
+         width: 258px;
+         height: 218px;
+         box-sizing: content-box;
+         box-shadow: 0 1px 4px 0 rgba(0,0,0,.15);
+         margin-right: 28px;
+         overflow: hidden;   
+        
+    }
+    .tran{
+        width: 258px;
+        height: 117px; 
+        overflow: hidden;
+
+    }
+    .infor{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .div2 img{
+        transition: 0.5s;
+        
+    }
+    .div2 img:hover{
+         transform:scale(1.4);  
+     
+    }
+    .box3{
+        display: inline-flex;
+        padding-top: 70px;
+        padding-bottom: 0px;
+        margin-bottom: 14px;
+    }
+    .ti-bar-chart{
+        font-size:1.2rem ;
+        padding-right:4px;
+    }
+    .box4{
+        display: inline-flex;
+        padding-top: 0px;
+        border-top: 1px solid black;
+    }
+    .box4:hover{
+        background-color: #ffffff;
+    }
+    .img4
+    {
+        padding-top:10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left:10px;
+    }
+    .col-md-5 img {
+        border: 1px solid #2c2c2c;
+    }
+.box5 h11 ,.box5 h8{
+     color: #ccc;
+     padding-left: 50px;
+ }
+ .box5 h6{
+     padding-left: 50px;
+     color: violet;
+ }
+ .footer{
+     border-top: 2px solid violet;
+ }
